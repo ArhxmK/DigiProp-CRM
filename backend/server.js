@@ -11,11 +11,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Database Connection (Use async-await compatible version)
+
 const db = await mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "arhxmk12@", // Use your MySQL password
+    password: "", 
     database: "digiprop_db",
 });
 

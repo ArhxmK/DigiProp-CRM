@@ -29,41 +29,54 @@ DigiProp CRM is a web-based application that allows users to register, book serv
 ```bash
 git clone https://github.com/ArhxmK/DigiProp-CRM.git
 cd DigiProp-CRM
+```
 
-2. Database Setup
+### **2. Database Setup**
 The MySQL database file has been attached in the project folder.
 
-Import the database into MySQL using a tool like phpMyAdmin or MySQL Workbench.
-Open server.js and replace the MySQL password with your own credentials before running the backend.
-3. Install Dependencies
+- Import the database into MySQL using a tool like phpMyAdmin or MySQL Workbench.
+- Open `server.js` and replace the MySQL password with your own credentials before running the backend.
+
+### **3. Install Dependencies**
 Run the following command in the project root folder:
-
+```bash
 npm install
+```
 Navigate to the backend folder and install backend dependencies:
-
+```bash
 cd backend
 npm install
-4. Start the Application
-Start the Backend Server
+```
 
+### **4. Start the Application**
+#### **Start the Backend Server**
+```bash
 cd backend
 node server.js
-Start the Frontend Server
-
+```
+#### **Start the Frontend Server**
+```bash
 npm run dev
+```
 Once both the frontend and backend are running, you can access the application through the following routes.
 
-5. Accessing the Application
-
-User Login/Register:
+### **5. Accessing the Application**
+#### **User Login/Register:**
+```
 http://localhost:5173/login
-Admin Dashboard Login Route:
+```
+#### **Admin Dashboard Login Route:**
+```
 http://localhost:5173/adminlogin
-Admin Credentials:
+```
+#### **Admin Credentials:**
+```
 Username: admin
 Password: admin123
-6. Project Structure
+```
 
+### **6. Project Structure**
+```
 DigiProp-CRM/
 │── backend/                  # Express.js Backend
 │   ├── server.js             # Main server file
@@ -77,16 +90,17 @@ DigiProp-CRM/
 │── README.md                 # Documentation
 │── package.json              # Node.js Dependencies
 │── vite.config.js            # Vite Configuration
-7. Example Workflow
+```
 
-User signs up and logs in.
-Books a service by providing property details.
-Proceeds to checkout and makes a payment.
-Admin logs in at /adminlogin to manage users and orders.
-Admin can delete or export data for records.
-8. Author
+### **7. Example Workflow**
+1. User signs up and logs in.
+2. Books a service by providing property details.
+3. Proceeds to checkout and makes a payment.
+4. Admin logs in at `/adminlogin` to manage users and orders.
+5. Admin can delete or export data for records.
 
-Mohamed Arham
+### **8. Author**
+- **Mohamed Arham**
 
 
 

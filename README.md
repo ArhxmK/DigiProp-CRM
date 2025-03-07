@@ -1,8 +1,31 @@
-# React + Vite
+# DigiProp CRM - Service Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiProp CRM is a web-based application that allows users to register, book services, and make payments, while administrators can manage users, view orders, and oversee system activities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **User Side**
+- User **registration & login**.
+- Book a **service** with property details.
+- Provide **contact & additional details**.
+- **Make payments** after booking.
+- View **confirmation and success pages**.
+
+### **Admin Side**
+- **Admin login** (Credentials: `admin / admin123`).
+- **Dashboard overview** for managing users and orders.
+- **View, delete, and export user & order data**.
+- **Order management** to track bookings and payments.
+
+## Requirements
+- Node.js (>= 14)
+- MySQL Database
+- Git (for version control)
+- A web server (e.g., Apache, Nginx, or local development using Vite)
+
+## Setup Instructions
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/ArhxmK/DigiProp-CRM.git
+cd DigiProp-CRM

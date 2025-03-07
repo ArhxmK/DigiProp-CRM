@@ -1,0 +1,78 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .signup-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+  }
+  
+  .signup-right {
+    width: 50%;
+    background: url("../../assets/images/cardBgimage.webp") no-repeat center;
+    background-size: cover;
+  }
+  
+  .signup-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signup-button {
+    background-color: black !important;
+    color: white !important;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    text-transform: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .signup-footer {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup-footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .signup-container {
+      flex-direction: column;
+    }
+  
+    .signup-left, .signup-right {
+      width: 100%;
+    }
+  
+    .signup-right {
+      height: 200px;
+    }
+  }
+  

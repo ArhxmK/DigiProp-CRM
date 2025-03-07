@@ -1,0 +1,166 @@
+/* Service Booking Page Styles */
+.service-booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  margin-top: 80px;
+}
+
+/* Left Section (Service Selection + Calendar) */
+.service-booking-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  min-width: 320px;
+}
+
+.service-selection,
+.service-booking-calendar {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section (Form) */
+.service-booking-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 55%;
+  min-width: 320px;
+}
+
+.service-booking-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Time Selection Grid */
+.time-selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.time-button {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.time-button.selected {
+  background: black;
+  color: white;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.book-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cancel-button {
+  background: transparent;
+  border: 1px solid black;
+}
+
+.book-button {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.cancel-button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.book-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Calendar */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+  .service-booking-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .service-booking-left,
+  .service-booking-form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-booking-container {
+    padding: 20px;
+  }
+
+  .service-booking-title {
+    font-size: 20px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .time-selection {
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cancel-button,
+  .book-button {
+    width: 100%;
+  }
+}

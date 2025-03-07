@@ -1,0 +1,128 @@
+.HeroImagePositon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.HeroBackGroundImage {
+  /* position: relative; */
+}
+.HeroMobileImage {
+  position: absolute;
+  top: 0;
+}
+.CartMobileImage{
+  position: absolute;
+  left: 0;
+ margin: auto;
+  width: 100%;
+ 
+}
+.Image_div {
+  position: absolute;
+  top: 126px;
+  left: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 37%;
+
+}
+.Image_div_Cart{
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+
+}
+.cartBGImage{
+  height: 511px;
+    object-fit: cover;
+    object-position: center;
+}
+.CartBanner{
+  position: relative;
+  width: 100%;
+  /* height: 70%; */
+  overflow: hidden;
+
+}
+.aboutPosition{
+  margin-top: 100px !important;
+  width: auto;
+  height:auto;
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    97.59deg,
+    #FEFEFE 13.6%,
+    rgba(254, 254, 254, 0) 57.61%
+  );
+}
+.aboutOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(143.98deg, rgba(255, 255, 255, 0) 36.5%, #FFFFFF 79.01%);
+}
+
+@media (max-width:900px) {
+  .Image_div_Cart{
+    position: absolute;
+  top: 280px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  }
+
+  .Image_div {
+    position: absolute;
+    left: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 37%;
+    top: 124px;
+  }
+  /* .aboutPosition {
+    margin: auto;
+    width: 63%;
+    height: 76%;
+    padding-top: 40px;
+  } */
+}
+
+@media (max-width:600px) {
+  .Image_div_Cart{
+    width: 70%;
+    top: 270px;
+    left: 10px;
+  }
+  .cartBGImage{
+    height: 411px;
+    object-fit: cover;
+    object-position: center;
+
+  }
+  .Image_div{
+      width: 30%;
+      top: 98px;
+      left: 66px;
+  }
+}

@@ -1,0 +1,78 @@
+.payment-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px 40px;
+    text-align: left;
+    color: black;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Add spacing between navbar and form */
+  .payment-container {
+    margin-top: 80px;
+  }
+  
+  .payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card-details,
+  .paypal-details {
+    margin-top: 20px;
+  }
+  
+  .card-flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .order-summary {
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .order-total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 15px;
+  }
+  
+  .book-button {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .book-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  

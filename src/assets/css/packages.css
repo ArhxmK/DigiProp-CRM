@@ -1,0 +1,31 @@
+.HR_Packeges {
+  border-top: 2px dashed #495057;
+  border-bottom: 0px;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+.white.HR_Packeges {
+  border-color: white;
+}
+.textColor {
+  color: #fff;
+}
+.packag_card {
+  position: relative;
+}
+.Trail_Button {
+  width: 175.79px;
+  height: 40.7px;
+  /* left: 192.13px; */
+  color: white;
+  background-color: #286167;
+  border: none;
+  margin-left: -67px;
+  /* margin-bottom: 0px; */
+  padding: 8px;
+  gap: 8px;
+  top: 5px;
+  right: -35px;
+  position: absolute;
+  transform: rotate(35.6deg);
+}
